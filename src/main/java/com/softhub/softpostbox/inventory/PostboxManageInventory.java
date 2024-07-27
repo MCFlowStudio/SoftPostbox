@@ -83,7 +83,7 @@ public class PostboxManageInventory implements SimpleInventoryProvider {
         } else {
             OfflinePlayer offlineTarget = Bukkit.getOfflinePlayer(this.targetName);
             if (!offlineTarget.hasPlayedBefore()) {
-                player.sendMessage("접속한 적 없는 대상");
+                player.sendMessage(MessageComponent.formatMessage(BukkitInitializer.getInstance().getConfig(), "no_target_player", targetName));
                 return;
             }
             this.targetId = offlineTarget.getUniqueId();
