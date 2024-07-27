@@ -1,0 +1,43 @@
+settings:
+  # 만료 기간 설정 (시간 단위, -1로 설정 시 비활성화)
+  expired_time: 12
+messages:
+  postbox_inventory_title: '<yellow>우편함 - %1%페이지'
+  expired_time: '<gray> 만료까지 남은 시간: %1%'
+  # 오류 메시지
+  full_inventory: '<red>인벤토리에 공간이 없어 아이템을 받을 수 없습니다.'
+  not_load_data: '<red>데이터를 불러오지 못 했습니다. 관리자에게 문의하세요.'
+  no_target_player: '<red>%1%님은 서버에 접속한 적 없는 유저입니다.'
+  no_data_item: '<red>우편함 데이터에 없는 아이템은 받을 수 없습니다.'
+  no_add_air: '<red>손에 아이템을 들어주세요.'
+  error_collect_item: '<red>받는 도중 공간이 부족하여 %1%개의 아이템을 받지 못했습니다.'
+  # 승인 메시지
+  success_gift: '<green>%1%님에게 %2%(을)를 선물했습니다.'
+  success_gift_target: '<green>%1%님에게 %2%(을)를 받았습니다. 우편함을 확인해 보세요.'
+  success_give: '<green>%1%님에게 %2%(을)를 지급했습니다.'
+  success_give_target: '<green>관리자 %1%님이 당신에게 %2%(을)를 지급했습니다. 우편함을 확인해 보세요.'
+  success_receive_item: '<green>우편함에서 아이템을 받았습니다.'
+  start_collect_item: '<green>우편함에서 총 %1%개의 아이템을 받을 예정입니다.'
+  success_collect_item: '<green>전체 %1%개 중 %2%개의 아이템을 받았습니다.'
+items:
+  back_button:
+    type: ARROW
+    amount: 1
+    name: "<red>이전 페이지"
+    lore:
+      - "<yellow>클릭 시 이전 페이지로 이동합니다."
+    customModelData: 123456
+  next_button:
+    type: ARROW
+    amount: 1
+    name: "<green>다음 페이지"
+    lore:
+      - "<yellow>클릭 시 이전 페이지로 이동합니다."
+    customModelData: 123456
+  collect_button:
+    type: ENDER_CHEST
+    amount: 1
+    name: "<gray>모두 받기"
+    lore:
+      - "<yellow>클릭 시 우편함 아이템을 모두 받습니다."
+    customModelData: 123456

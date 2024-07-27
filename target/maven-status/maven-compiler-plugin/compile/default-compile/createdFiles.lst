@@ -1,0 +1,13 @@
+com\softhub\softpostbox\util\SerializeUtil.class
+com\softhub\softpostbox\manager\PostboxManager.class
+com\softhub\softpostbox\ItemContainer.class
+com\softhub\softpostbox\PostboxData.class
+com\softhub\softpostbox\inventory\PostboxManageInventory.class
+com\softhub\softpostbox\database\CachedDataService.class
+com\softhub\softpostbox\config\ConfigManager.class
+com\softhub\softpostbox\listener\PlayerListener.class
+com\softhub\softpostbox\inventory\PostboxInventory.class
+com\softhub\softpostbox\PostboxContainer.class
+com\softhub\softpostbox\command\PostboxCommand.class
+com\softhub\softpostbox\BukkitInitializer.class
+com\softhub\softpostbox\database\StorageDataService.class
